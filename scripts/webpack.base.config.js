@@ -13,7 +13,7 @@ function resolve(relatedPath) {
 
 const webpackConfigBase = {
   entry: {
-    client: resolve('../app/index.js'),
+    index: resolve('../app/index.js'),
   },
   output: {
     path: resolve('../dist'),
